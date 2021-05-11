@@ -55,9 +55,13 @@
 }
 .home-footer {
   color: rgb(175, 174, 174);
-  margin-top: 40px;
+  margin: 10px 0 10px 0;
 }
 .home-footer a {
   text-decoration: none;
+  color: white;
+}
+.home-instruction {
+  margin-top: 10px;
   color: white;
 }

@@ -4,11 +4,6 @@ const HomeScreen = ({ docId, setDocId }) => {
   const inputHandler = (e) => {
     setDocId(e.target.value);
   };
-  //   const emptyInputCheck =() => {
-  //       if(docId === ''){
-
-  //       }
-  //   }
   return (
     <div className="home-container">
       <div className="home-card">
@@ -16,7 +11,7 @@ const HomeScreen = ({ docId, setDocId }) => {
         <input
           value={docId}
           onChange={inputHandler}
-          placeholder="Enter the Document ID"
+          placeholder="Document ID of existing document"
           type="text"
         />
         <div className="home-btns">
@@ -27,9 +22,16 @@ const HomeScreen = ({ docId, setDocId }) => {
             <button>New Document</button>
           </Link>
         </div>
+        <p className="home-instruction">
+          Document Id can be found in the URL following
+        </p>
+        <p className="home-instruction">/document/ (or)</p>
+        <p className="home-instruction">Click on new document</p>
         <h4 className="home-footer">
           Google Docs Clone -{' '}
-          <a href="https://github.com/Kishore901">Kishore</a>
+          <a href="https://github.com/Kishore901">
+            <u>Kishore</u>
+          </a>
         </h4>
       </div>
     </div>
