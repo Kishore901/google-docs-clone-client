@@ -4,7 +4,7 @@ import Quill from 'quill';
 import { io } from 'socket.io-client';
 import { useParams } from 'react-router-dom';
 
-const HEROKU_ADD = 'https://google-docs-clone-serverside.herokuapp.com/';
+const HEROKU_ADD = 'https://google-docs-clone-server-side.herokuapp.com/';
 
 const TOOLBAR_OPTIONS = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
