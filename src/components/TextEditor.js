@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import 'quill/dist/quill.snow.css';
 import Quill from 'quill';
-import { io } from 'socket.io-client';
+import io from 'socket.io-client';
 import { useParams } from 'react-router-dom';
 
 const HEROKU_ADD = 'https://google-docs-clone-server-side.herokuapp.com/';
