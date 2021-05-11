@@ -63,5 +63,6 @@
 }
 .home-instruction {
   margin-top: 10px;
-  color: white;
+  color: rgb(175, 174, 174);
+  text-align: center;
 }

@@ -22,11 +22,11 @@ const HomeScreen = ({ docId, setDocId }) => {
             <button>New Document</button>
           </Link>
         </div>
-        <p className="home-instruction">
-          Document Id can be found in the URL following
-        </p>
-        <p className="home-instruction">/document/ (or)</p>
-        <p className="home-instruction">Click on new document</p>
+        <div className="home-instruction">
+          <p>Document Id can be found in the URL following </p>
+          <p>/document/ (or)</p>
+          <p>Click on new document</p>
+        </div>
         <h4 className="home-footer">
           Google Docs Clone -{' '}
           <a href="https://github.com/Kishore901">
